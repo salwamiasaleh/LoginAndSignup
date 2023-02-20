@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="item">
+    <div class="h-75 container border d-flex justify-content-center align-items-center">
+      <div class="row">
+        <h1 class="text-center">Smart Login System</h1>
+        <input type="email" class="form-control col-md-4 m-3" id="email" placeholder="Enter email" />
+         <div class="alert alert-danger d-none" id="emailalert" >
+        <p>enter correct email</p>
+      </div>
+        <input type="password" class="form-control col-md-4 m-3" id="pass" placeholder="Enter password" />
+        <div class="text-white alert alert-danger d-none" id="incorrectlogin">
+          <p>incorrect credentials</p>
+        </div>
+        <button type="button" id="loginbutton" class="btn btn-primary bg-info col-md-2 m-auto m-5" onclick="login()">
+          Login
+        </button>
+        <p class="text-center m-3">
+          dont have an account? <a href="signup.html"> Sign up</a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+ 
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div class="item ">
+
+  <div class=" container border d-flex justify-content-center align-items-center ">
+ 
+    <div class="row ">
+      <h1 class="text-center">Smart Login System  </h1>
+      <!-- <input type="text" class=" form-control col-md-3 my-2" id="namexx" placeholder="Enter name">
+      <div class="alert alert-danger d-none" id="nameid" >
+        <p>enter correct username</p>
+      </div> -->
+      <input type="email" class="form-control col-md-3 my-2" id="email" placeholder="Enter email">
+      <div class="alert alert-danger d-none" id="emailalert" >
+        <p>enter correct email</p>
+      </div>
+      <input type="password" class="form-control col-md-3 my-2" id="pass" placeholder="Enter password">
+      <div class="alert alert-danger d-none" id="passworda" >
+        <p>enter a password that consists of  at least eight characters,
+           at least one number and both lower and uppercase letters and special characters</p>
+      </div>
+      <button type="button" onclick="signup()" id="signupbutton"class="btn btn-primary bg-info col-md-2 m-auto m-5 ">signup</button>
+ 
+    <div class="my-3 alert alert-danger " id="warning">
+        <p class="text-center" >a user with this email already exists</p>
+      </div>
+
+    <div class="my-3 alert alert-success " id="success">
+        <p class="text-center" >your registration was successful </p>
+     
+    </div>
+    <p class="text-center m-3">
+      already have an account? <a href="index.html"> Login in</a>
+    </p>
+    </div>
+  </div>
+  
+</div>
+  
+
+  <script src="main.js"></script>
+</body>
+
+</html>
